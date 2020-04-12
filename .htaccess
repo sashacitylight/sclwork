@@ -1,9 +1,19 @@
 Options +FollowSymLinks
 RewriteEngine On
+RewriteCond %{SERVER_PORT} !^443$
+RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R,L]
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
 RewriteRule .* index.php [L]
+
+
+
+
+
+
+
 
 
 
