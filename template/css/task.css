@@ -1,0 +1,51 @@
+/*Главная страница*/
+.header-list__item{
+    font-size: 80%;
+}
+
+.task-item__username{
+    font-size:110%;
+}
+
+.task-item__mail{
+    font-weight: 500;
+}
+
+.task-item__status{
+    width:100px;
+
+}
+
+.task-item__admin-edited{
+    width:180px;
+}
+
+@media screen and (max-width: 700px) { 
+    .pagination{
+        font-size: 50%;
+    }
+    .page-link{
+        padding: .4rem .5rem;
+    }
+}
+
+.header-list__item a{
+    color:grey;
+}
+
+
+/*форма авторизации*/
+.form-signin{
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}   
+
+.task-item-edit-admin__checkbox{
+    margin-top:7px;
+}
+
+#wrong-authorization {
+    display: none;
+}
