@@ -1,5 +1,5 @@
 <?php
-const _SITE_URL         = "beejeetest.loc"; 
+const _SITE_URL         = "sclwork.site"; 
 const _DEBUG_MODE       = "0";
 const _MAIN_TEMPLATE    =  'main.php';
 define("_ROOT", dirname(__FILE__) );

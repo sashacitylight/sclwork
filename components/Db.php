@@ -1,10 +1,11 @@
 <?php
 class Db 
 {
+    
     const _SERVER_NAME  = "localhost";
-    const _USER_NAME    = "root";
-    const _PASSWORD     = "";
-    const _DATABASE     = "beejeedb";
+    const _USER_NAME    = "u0764921_default";
+    const _PASSWORD     = "u0764921_default";
+    const _DATABASE     = "u0764921_task_manager_mvc";
     
     public static function getConnection() 
     {
